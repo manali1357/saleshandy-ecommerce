@@ -89,7 +89,7 @@ export function CartDrawer() {
                           <p className="text-sm text-muted-foreground capitalize">{item.category}</p>
                         </div>
                         <p className="font-bold whitespace-nowrap ml-4">
-                          ${(item.price * item.quantity).toFixed(2)}
+                          ₹{(item.price * item.quantity).toFixed(2)}
                         </p>
                       </div>
                       
@@ -137,7 +137,7 @@ export function CartDrawer() {
           <SheetFooter className="flex-col sm:flex-col gap-4 pt-6 border-t mt-auto">
             <div className="flex items-center justify-between w-full">
               <span className="font-semibold text-lg">Subtotal</span>
-              <span className="font-bold text-xl">${cartTotal.toFixed(2)}</span>
+              <span className="font-bold text-xl">₹{cartTotal.toFixed(2)}</span>
             </div>
             <p className="text-xs text-muted-foreground w-full">
               Shipping and taxes calculated at checkout.

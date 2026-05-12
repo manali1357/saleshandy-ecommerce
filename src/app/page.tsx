@@ -130,7 +130,7 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-sm">Minimalist Chronograph</h3>
               <div className="flex items-center justify-between mt-1">
-                <span className="text-sm font-semibold text-primary">$120.00</span>
+                <span className="text-sm font-semibold text-primary">₹120.00</span>
                 <span className="text-[10px] text-muted-foreground">★ 4.9 (84)</span>
               </div>
             </motion.div>
@@ -157,7 +157,7 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-sm">Pro ANC Headphones</h3>
               <div className="flex items-center justify-between mt-1">
-                <span className="text-sm font-semibold text-primary">$299.99</span>
+                <span className="text-sm font-semibold text-primary">₹299.99</span>
                 <span className="text-[10px] text-muted-foreground">★ 4.8 (512)</span>
               </div>
             </motion.div>
@@ -185,7 +185,7 @@ export default function Home() {
               <h3 className="font-bold text-base">Hyaluronic Acid Serum</h3>
               <p className="text-xs text-muted-foreground line-clamp-1 mt-0.5">Visibly plumps skin, minimizes fine lines.</p>
               <div className="flex items-center justify-between mt-2 pt-2 border-t">
-                <span className="text-base font-bold text-primary">$22.00</span>
+                <span className="text-base font-bold text-primary">₹22.00</span>
                 <span className="text-xs font-medium text-muted-foreground">★ 4.7 (340 reviews)</span>
               </div>
             </motion.div>

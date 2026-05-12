@@ -168,7 +168,7 @@ export default function ProductDetailsPage() {
           </div>
 
           <div className="text-4xl font-bold mb-8">
-            ${product.price.toFixed(2)}
+            ₹{product.price.toFixed(2)}
           </div>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
@@ -238,7 +238,7 @@ export default function ProductDetailsPage() {
           <div className="grid grid-cols-2 gap-4 mt-8 pt-8">
             <div className="flex items-center gap-3 text-muted-foreground">
               <Truck className="h-6 w-6 shrink-0" />
-              <span className="text-sm font-medium">Free shipping on orders over $50</span>
+              <span className="text-sm font-medium">Free shipping on orders over ₹4,000</span>
             </div>
             <div className="flex items-center gap-3 text-muted-foreground">
               <ShieldCheck className="h-6 w-6 shrink-0" />

@@ -37,7 +37,7 @@ export const products: Product[] = [
     category: "fashion",
     images: [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1521223890158-f9f7c3d5bab3?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=800&auto=format&fit=crop"
     ],
     features: ["100% Genuine Leather", "Polyester Inner Lining", "YKK Zippers", "Slim Fit Design"],
     rating: 4.8,
